@@ -1,0 +1,173 @@
+Checking READ HIT CASE
+
+
+0 7ffd8c48
+0 7ffd8c47
+0 7ffd8c46
+
+
+
+Checking READ MISS CASE
+
+
+0 7ffd8c48
+0 7fed8c47
+
+
+Checking Write  HIT CASE
+
+1 7ffd7c48
+1 7ffd7c47
+1 7ffd7c46
+
+
+Checking Write  MISS CASE
+
+1 7ffd7c48
+1 7efd7c47
+
+
+
+
+Checking Whether LINE entered MODIFY STATE CASE
+
+
+
+1 7ffd9c48
+a 7ffd9c48
+
+
+Checking Whether LINE entered Exclusive STATE CASE
+
+
+
+0 7ffd5A48
+a 7ffd5A48
+
+
+Checking Whether LINE entered Forward STATE CASE
+
+0 7ffd5B41
+a 7ffd5B41
+
+
+
+Checking Whether LINE entered MODIFIED STATE FROM INVALID  CASE travelling through ForWARD STATE
+
+
+
+0 7ffd5041
+1 7ffd5045
+a 7ffd5043
+1 7ffd5044
+a 7ffd5045
+
+
+Checking Whether LINE entered MODIFIED STATE FROM INVALID  CASE TRAVELLING THROUGH eXCLUSIVE STATE
+
+
+
+0 7ffd5148
+1 7ffd5145
+a 7ffd5149
+1 7ffd5146
+a 7ffd5149
+
+
+
+////////////////////snoop operations///////////////////////////////
+
+
+
+
+
+Checking Whether LINE entered invalid  STATE FROM forward  state 
+
+
+0 7ffd5341
+6 7ffd5345
+a 7ffd5347
+
+
+
+
+Checking Whether LINE entered invalid  STATE FROM exclusive  state 
+
+
+
+
+0 7ffd5940
+6 7ffd5945
+a 7ffd5947
+
+
+
+Checking Whether LINE entered invalid  STATE FROM modified  state 
+
+
+
+1 7ffd5940
+a 7ffd5940
+6 7ffd594A
+a 7ffd5949
+
+
+Checking Whether LINE entered shared  STATE FROM Modified  state 
+
+
+1 7ffd5b40
+a 7ffd5940
+4 7ffd5b41
+a 7ffd5b45
+
+
+
+Checking Whether LINE entered shared  STATE FROM Exclusive  state 
+
+
+0 7ffd5c40
+4 7ffd5c41
+a 7ffd5c45
+
+
+
+Checking Whether LINE entered shared  STATE FROM Exclusive  state 
+
+
+0 7ffd5c40
+4 7ffd5c41
+a 7ffd5c45
+
+
+Checking Whether LINE entered shared  STATE FROM Forward  state
+
+
+
+0 7ffd5d45
+4 7ffd5d41
+a 7ffd5d45 
+
+Checking Whether LINE entered Invalid  STATE FROM Forward  state
+
+
+
+0 7ffd5d45
+4 7ffd5d41
+a 7ffd5d45
+6 7ffd5d41
+a 7ffd5d42
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
